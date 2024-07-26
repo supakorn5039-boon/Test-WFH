@@ -32,7 +32,7 @@ export default function DashboardPage() {
           <Typography className="text-gray-600" mx={10} fontSize={36}>
             รายการขอขึ้นทะเบียน
           </Typography>
-          <Box className="mt-5 bg-gray-300/90 rounded-lg  w-fit p-3">
+          <Box className="mt-5 bg-gray-300/90 rounded-tr-lg rounded-bl-lg rounded-br-lg  w-fit p-3">
             <TabActive setShow={setShow} />
             <Search />
             <Box className="bg-white rounded-t-lg" pt={2} px={2}>

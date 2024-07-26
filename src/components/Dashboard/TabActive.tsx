@@ -29,10 +29,9 @@ export default function TabActive({
       {Object.keys(tabMapping).map((label) => (
         <Box
           key={label}
-          component="button"
           onClick={() => handleClick(label)}
           className={`p-2 rounded-lg cursor-pointer ${
-            activeTab === label ? "bg-blue-500 text-white" : "bg-gray-200"
+            activeTab === label ? "bg-gray-400/50" : "bg-gray-200"
           }`}
         >
           <Typography>{label}</Typography>
